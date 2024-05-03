@@ -1,0 +1,38 @@
+.Container h1 {
+    color: #6C0345;
+    padding: 10px 20px;
+    font-size: 42px;
+}
+
+.Container p {
+    color: #6C0345;
+    padding: 0px 20px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.navi {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: gray;
+}
+
+.navi button {
+    padding: 10px;
+    height: 100%;
+    border: none;
+    outline: none;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.navi button:hover {
+    background-color: #6C0345;
+    color: white;
+}
