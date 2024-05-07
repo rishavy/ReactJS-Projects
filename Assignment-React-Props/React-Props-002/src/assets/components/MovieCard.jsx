@@ -2,7 +2,7 @@ import React from 'react';
 
 const MovieCard = ({ title, subtitle, description, imageUrl, rating, duration, category, poster }) => {
     return (
-        <div className="h-auto max-w-full mx-auto bg-[#0f0f0f] rounded-xl shadow-md overflow-hidden md:max-w-4xl flex mb-6">
+        <div className="h-auto max-w-full mx-auto bg-[#0f0f0f] rounded-xl shadow-md overflow-hidden md:max-w-4xl flex mb-6 shadow-2 shadow-white/50 hover:scale-105 transition duration-300 cursor-pointer">
             <div className="md:w-1/2">
                 <img className="h-64 w-full object-cover" src={imageUrl} alt={title} />
             </div>
