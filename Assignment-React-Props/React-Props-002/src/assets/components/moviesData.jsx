@@ -5,7 +5,7 @@ const moviesData = [
         subtitle: '2017, David Ayer',
         duration: '117 min',
         category: 'Action, Crime, Fantasy',
-        description: 'In an alternate present-day where magical creatures live among us, two L.A. cops become embroiled in a prophesied turf battle.',
+        description: 'Set in a world where fantasy creatures live side by side with humans. A human cop is forced to work with an Orc to find a weapon everyone is prepared to kill for.',
         imageUrl: 'https://m.media-amazon.com/images/M/MV5BMTcyNzk5NDg1Nl5BMl5BanBnXkFtZTgwNTM5MDQxNDM@._V1_.jpg',
         poster: 'https://static1.moviewebimages.com/wordpress/wp-content/uploads/article/OTKtORETWdeACh8ftxmVG5EWZbS29h.jpg', 
         rating: 9.3

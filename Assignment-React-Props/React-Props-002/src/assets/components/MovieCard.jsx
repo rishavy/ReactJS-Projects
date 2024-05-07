@@ -2,7 +2,7 @@ import React from 'react';
 
 const MovieCard = ({ title, subtitle, description, imageUrl, rating, duration, category, poster }) => {
     return (
-        <div className="max-w-full mx-auto bg-[#0f0f0f] rounded-xl shadow-md overflow-hidden md:max-w-2xl flex mb-6">
+        <div className="h-auto max-w-full mx-auto bg-[#0f0f0f] rounded-xl shadow-md overflow-hidden md:max-w-4xl flex mb-6">
             <div className="md:w-1/2">
                 <img className="h-64 w-full object-cover" src={imageUrl} alt={title} />
             </div>
@@ -22,8 +22,9 @@ const MovieCard = ({ title, subtitle, description, imageUrl, rating, duration, c
                 <p className="mt-2 text-gray-300">{description}</p>
 
             </div>
-            <div className="hidden md:block md:w-1/2">
-                <img className="h-96 w-full object-cover" src={poster} alt={`${title} Character`} />
+            <div className="hidden md:block md:w-4/5 relative">
+                <img className="w-full h-full" src={poster} alt={`${title} Character`} />
+                <div className="absolute inset-0" style={{ background: 'linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.9))' }}></div>
             </div>
         </div>
     );

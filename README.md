@@ -12,4 +12,5 @@
 
 Assignment-React-Props
 - [React-Props-001](https://66394937240d764292e97ce5--reactjsprojects.netlify.app/)
-- [React-Props-002]()
+- [React-Props-002](https://663a376bd7d2d904fe9bb2d0--reactjsprojects.netlify.app/)
+
