@@ -8,7 +8,7 @@
 
 - [Family Wellness](https://6636521cf6a8fe08a4a63da1--reactjsprojects.netlify.app/)
 
-- [Password generator](https://6637c0424e766af8c938b2a7--reactjsprojects.netlify.app/)
+- [Password generator](https://663cfc64cc02ef186c92cff7--reactjsprojects.netlify.app/)
 
 - Assignment-React-Props
     - [React-Props-001](https://66394937240d764292e97ce5--reactjsprojects.netlify.app/)
