@@ -43,7 +43,8 @@ const TodoApp = () => {
         >
             Add Task
         </button>
-        </div>
+      </div>
+      {tasks.length === 0 && <p className="text-center">No Task added</p>}
       <TodoList 
         tasks={tasks} 
         onDeleteTask={handleDeleteTask} 

@@ -1,6 +1,7 @@
 import React from 'react';
 
 const TodoItem = ({ task, onDeleteTask, onToggleTask }) => {
+  
   return (
     <li 
         className={`flex items-center justify-between border-b border-gray-300 px-2 py-2 hover:shadow-md ${task.completed ? 'line-through text-gray-400' : ''}`}
