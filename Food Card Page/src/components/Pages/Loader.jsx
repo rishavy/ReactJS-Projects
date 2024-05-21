@@ -8,7 +8,7 @@ const Loader = () => {
       </div>
       <div>
         <h1 className="text-2xl md:text-3xl font-bold text-center text-[#DC2626]">
-          If it takes some time, please refresh the page or try something else.
+          If it takes long time, please refresh the page or try something else.
         </h1>
       </div>
     </div>

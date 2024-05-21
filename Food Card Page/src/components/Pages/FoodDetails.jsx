@@ -16,7 +16,7 @@ export const FoodDetails = () => {
   }
   useEffect(() => {
     foodDeatils();
-  }, []);
+  }, [id]);
 
   return (
     <div className="pt-40">
