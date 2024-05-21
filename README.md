@@ -23,5 +23,5 @@
 - [Restaurant](https://663fafc39f93db11053e2581--reactjsprojects.netlify.app/)
 
 - [Food Card Page](https://664b95de7f95c9d656dc0e72--reactjsprojects.netlify.app/)
-    - [*](https://664cec1269e42a0e4a3de25a--reactjsprojects.netlify.app/)
+    - [Geek Food](https://664cec1269e42a0e4a3de25a--reactjsprojects.netlify.app/)
 
