@@ -19,7 +19,7 @@ export const FoodDetails = () => {
   }, [id]);
 
   return (
-    <div className="pt-40">
+    <div className="pt-14">
       <div className="w-[50%] mx-auto rounded-md shadow-lg p-5">
         {details.length === 0 ? (
           <Loader />

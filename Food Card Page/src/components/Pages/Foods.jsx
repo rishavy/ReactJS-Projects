@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Loader from "./Loader";
+import Select from 'react-select';
 
 const Foods = () => {
   const [food, setFood] = useState([]);
@@ -41,36 +42,32 @@ const Foods = () => {
   const nonVegetarianCategories = ["Beef", "Seafood", "Chicken", "Pork", "Lamb", "Goat"];
   const dessertCategory = "Dessert";
 
+  // Convert countries to options for react-select
+  const countryOptions = countries.map((item) => ({
+    value: item.strArea,
+    label: item.strArea
+  }));
+
   return (
     <>
-      <h1 className="pt-32 text-center pb-5 text-3xl font-bold font-mono">
+      <h1 className="pt-16 text-center pb-5 text-3xl font-bold font-mono">
         Search your food recipe
       </h1>
       <div className="flex justify-center gap-10">
         <input
           type="search"
-          placeholder="Search food name"
-          className="border-2 p-2 w-[350px]"
+          placeholder=" Search food name"
+          className="border-2 p-1.5 rounded-lg w-[350px]"
           value={inputVal}
           onChange={(e) => setInputVal(e.target.value)}
         />
-        <select
-          name="countries"
-          className="border-2 p-2"
-          value={slectCountry}
-          onChange={(e) => setSlectCountry(e.target.value)}
-        >
-          <option value="">All Cuisines</option>
-          {countries
-            .filter((item) => {
-              return item.strArea.includes(slectCountry);
-            })
-            .map((item, idx) => (
-              <option value={item.strArea} key={idx}>
-                {item.strArea}
-              </option>
-            ))}
-        </select>
+        <Select
+          options={countryOptions}
+          className="w-[200px]"
+          placeholder="All Cuisines"
+          onChange={(option) => setSlectCountry(option ? option.value : "")}
+          isClearable
+        />
       </div>
       <div className="pt-14 flex flex-wrap gap-20 w-[90%] m-auto justify-center items-center">
         {food.length === 0 ? (
@@ -114,7 +111,7 @@ const Foods = () => {
                     >
                       #{item.strCategory}
                     </p>
-                    <p className="text-center  bg-blue-500 text-white p-1 rounded cursor-pointer hover:bg-blue-600 transition-colors duration-300">
+                    <p className="text-center bg-blue-500 text-white p-1 rounded cursor-pointer hover:bg-blue-600 transition-colors duration-300">
                       Check details
                     </p>
                   </div>
