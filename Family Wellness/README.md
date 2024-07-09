@@ -1,4 +1,4 @@
-# HostedLive demo [Click here...](https://6636521cf6a8fe08a4a63da1--reactjsprojects.netlify.app/)
+# Live demo [Click here...](https://6636521cf6a8fe08a4a63da1--reactjsprojects.netlify.app/)
 
 # React + Vite
 
