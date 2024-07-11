@@ -6,6 +6,8 @@
 
 - [GeekFood-Home](https://668d796bbfe56bc087b4e134--reactjsprojects.netlify.app/?authuser=1)
 
+- [GeekFood-Quote](https://66900c3b4b8dbb0a3c5f8edc--reactjsprojects.netlify.app/)
+
 - [Family Wellness](https://6636521cf6a8fe08a4a63da1--reactjsprojects.netlify.app/)
 
 - [Day 4 - Home Work](https://663680ee692e082b60f680c8--reactjsprojects.netlify.app/)
