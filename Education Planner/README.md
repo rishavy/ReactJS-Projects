@@ -1,4 +1,4 @@
-# Live demo [Click here...](https://6692b506951df559371e051f--reactjsprojects.netlify.app/)
+# Live demo [Click here...](https://6692bc08b61ecd3529f3c267--reactjsprojects.netlify.app/)
 
 # Education Planner
 

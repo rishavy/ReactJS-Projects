@@ -18,7 +18,7 @@
     - [React-Props-001](https://66394937240d764292e97ce5--reactjsprojects.netlify.app/)
     - [React-Props-002](https://663a73e08e221e413300b63b--reactjsprojects.netlify.app/)
 
-- [Education Planner](https://6692b506951df559371e051f--reactjsprojects.netlify.app/)
+- [Education Planner](https://6692bc08b61ecd3529f3c267--reactjsprojects.netlify.app/)
 
 - [Geek Food](https://663a6b9956923e2e1f24d741--reactjsprojects.netlify.app/)
 
