@@ -14,7 +14,7 @@ A user-friendly web application to plan and manage study schedules, built using 
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/education-planner.git
+    git clone https://github.com/rishavy/education-planner.git
     cd education-planner
     ```
 
