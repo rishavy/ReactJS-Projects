@@ -39,5 +39,7 @@
 
 - [Shopping cart](https://664fa3ebe9e9146a671112d4--reactjsprojects.netlify.app/)
 
+- [Progress Bar](https://669ea2993965bf1ad60c8df7--reactjsprojects.netlify.app/)
+
 - [Bank Dashboard](https://669589d547c83ba39a60bcf2--reactjsprojects.netlify.app/)
 
