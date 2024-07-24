@@ -1,27 +1,19 @@
-import React, { useState } from 'react';
-import ReactMarkdown from 'react-markdown';
-import ExportButton from './ExportButton';
+import React from "react";
+import MarkdownEditor from "@uiw/react-markdown-editor";
+import "../components/markdown-editor.css";
 
-const Editor = () => {
-  const [markdown, setMarkdown] = useState('');
-
+const Editor = ({ id, content, onChange, isActive, title }) => {
   return (
-    <div className="flex flex-col md:flex-row h-screen">
-      {/* Editor */}
-      <div className="flex-1 p-4 border-r border-gray-300">
-        <textarea
-          value={markdown}
-          onChange={(e) => setMarkdown(e.target.value)}
-          className="w-full h-full p-2 border border-gray-300 rounded-md"
-          placeholder="Write your Markdown here..."
+    isActive && (
+      <div className="mb-4 h-[500px]">
+        <h2 className="text-xl font-bold">{title}</h2>
+        <MarkdownEditor
+          value={content}
+          onChange={(value) => onChange(value)}
+          height="610px"
         />
-        <ExportButton markdown={markdown} />
       </div>
-      {/* Preview */}
-      <div className="flex-1 p-4">
-        <ReactMarkdown className="prose lg:prose-xl">{markdown}</ReactMarkdown>
-      </div>
-    </div>
+    )
   );
 };
 
