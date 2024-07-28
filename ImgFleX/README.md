@@ -7,9 +7,9 @@ ImgFleX is a versatile image processing web application. With ImgFleX, you can:
 - Download multiple images at once.
 
 ## Image Attachments
-<img src="./public//assest/image-1.PNG" height="250" width="400">
-<img src="./public//assest//image-2.PNG" height="250" width="400">
-<img src="./public//assest//image-3.PNG" height="250" width="400">
+<img src="./public//assest/image-1.PNG" height="300" width="450">
+<img src="./public//assest//image-2.PNG" height="300" width="450">
+<img src="./public//assest//image-3.PNG" height="300" width="450">
 
 ## Table of Contents
 - [Demo](#demo)
