@@ -43,3 +43,4 @@
 
 - [Bank Dashboard](https://669589d547c83ba39a60bcf2--reactjsprojects.netlify.app/)
 
+- [Text-translator](https://66a926d96252b863609668ee--reactjsprojects.netlify.app/)
