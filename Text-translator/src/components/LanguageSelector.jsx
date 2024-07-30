@@ -1,4 +1,3 @@
-// src/components/LanguageSelector.jsx
 import React from 'react';
 import languages from '../Language';
 

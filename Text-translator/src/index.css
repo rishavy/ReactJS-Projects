@@ -58,6 +58,7 @@ textarea {
   background-color: #f9f9f9;
   display: flex;
   font-size: large;
+  white-space: pre-wrap;
 }
 
 button {
