@@ -26,10 +26,10 @@ const BudgetPlanner = () => {
         />
         <button type="submit" className="btn bg-blue-500 hover:bg-blue-600 text-white px-6 rounded">Set Budget</button>
       </form>
-      <div className=' text-2xl bg-[#b2e8ff] py-2 flex justify-center gap-32 '>
-        <p>Budget: ₹ {state.budget}</p>
-        <p>Remaining: ₹ {state.budget - totalExpenses}</p>
-        <p>Spent so far: ₹ {totalExpenses}</p>
+      <div className=' text-2xl flex justify-center gap-32 '>
+        <p className='bg-[#ade4fc] py-1 px-2'>Budget: ₹ {state.budget}</p>
+        <p className='bg-[#ade4fc] py-1 px-2'>Remaining: ₹ {state.budget - totalExpenses}</p>
+        <p className='bg-[#b2e8ff] py-1 px-2'>Spent so far: ₹ {totalExpenses}</p>
       </div>
     </div>
   );
