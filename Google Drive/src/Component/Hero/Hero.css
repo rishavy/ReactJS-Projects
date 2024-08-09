@@ -1,0 +1,139 @@
+/* Container for the entire Hero component */
+.data {
+    flex: 1;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+/* Header section of the Hero component */
+.data__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    margin-top: 15px;
+    height: 40px;
+}
+
+/* Left section of the header */
+.data__headerLeft {
+    display: flex;
+    align-items: center;
+}
+
+/* Icons on the right side of the header */
+.data__headerRight svg {
+    margin: 0px 10px;
+}
+
+/* Bold headings for the details rows */
+.headings {
+    font-weight: 600;
+}
+
+/* Grid layout for file items */
+.data_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid layout */
+    gap: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* File item container */
+.data__file {
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: 20px 10px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    transition: box-shadow 0.3s ease;
+}
+
+/* Hover effect for file items */
+.data__file:hover {
+    box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+/* File name text */
+.data__file p {
+    margin-top: 10px;
+    font-size: 14px;
+    word-break: break-word; /* Prevents overflow of long file names */
+    text-align: center;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* File icon styling */
+.data__file svg {
+    font-size: 60px;
+    color: gray;
+}
+
+/* List view container */
+.data_list {
+    width: 100%;
+}
+
+/* Details row styling */
+.detailsRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Styling for each cell in the details row */
+.detailsRow p {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    flex: 1;
+    padding: 5px;
+}
+
+/* Icon within details row */
+.detailsRow p svg {
+    font-size: 22px;
+    margin-left: 5px;
+}
+
+.insert-device{
+    margin-left: -10px;
+}
+.owner{
+    margin-left: 20px;
+}
+.last-modified{
+    margin-left: -30px;
+}
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .data__header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .data__headerRight {
+        margin-top: 10px;
+    }
+
+    .detailsRow {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 0;
+    }
+
+    .detailsRow p {
+        padding: 5px 0;
+    }
+}
