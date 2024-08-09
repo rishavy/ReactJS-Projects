@@ -92,6 +92,15 @@
     padding: 10px;
 }
 
+.detailsRow a {
+    text-decoration: none;
+    color: #808080;
+}
+
+.detailsRow a:hover {
+    color: #222222;
+}
+
 /* Styling for each cell in the details row */
 .detailsRow p {
     display: flex;
