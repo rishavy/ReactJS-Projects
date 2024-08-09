@@ -1,9 +1,9 @@
 .header {
-  display: grid;
-  grid-template-columns: 250px auto 300px;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 5px 20px;
-  height: 60px;
+  height: 55px;
   border-bottom: 1px solid #d3d3d3;
 }
 
@@ -13,11 +13,11 @@
 }
 
 .header__logo .heading-logo {
-  width: 70px;
+  width: 55px;
 }
 
 .header__logo span {
-  font-size: 22px;
+  font-size: 19px;
   color: gray;
   font-weight: 600;
 }
@@ -26,7 +26,7 @@
   display: flex;
   align-items: center;
   width: 720px;
-  height: 25px;
+  height: 15px;
   background-color: rgb(233,238,246);
   padding: 12px;
   border-radius: 23px;
@@ -78,10 +78,6 @@
   left: 0;
   object-fit: cover;
   transition: transform 0.3s ease-in;
-}
-
-.profile-image:hover {
-  transform: scale(1.5);
 }
 
 .account-icon-overlay {

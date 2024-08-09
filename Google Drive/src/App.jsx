@@ -41,7 +41,7 @@ const App = () => {
             onClick={signIn}
             className='login-button'
           >
-            Login to Google Drive Clone
+            Login to Google Drive
           </button>
         </div>
       )}
