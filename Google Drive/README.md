@@ -41,7 +41,9 @@ The project is organized into the following main components:
    ```bash
    git clone https://github.com/rishavy/ReactJS-Projects/tree/main/Google%20Drive?authuser=1
 
-   [Hosted Link...](https://66b659a2b4d6404dab248373--reactjsprojects.netlify.app/?authuser=1)
+
+
+[Hosted Link...](https://66b71eb56801eeffb544e25e--reactjsprojects.netlify.app/)
 
 
 
