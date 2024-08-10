@@ -62,7 +62,7 @@ const Header = ({ photoURL }) => {
               </div>
             )}
           </div>
-        </span>a
+        </span>
       </div>
     </div>
   )
